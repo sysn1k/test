@@ -1,36 +1,5 @@
 package ru.ahub.interview
 
-case class MatchResult(
-    manufacturer: String,
-    productionCountry: Option[String],
-    brandName: String,
-    modelCode: String,
-    modelName: String,
-    subBrand: Option[String],
-    // transmission
-    transmissionType: Option[String],
-    transmissionDetailedType: Option[String],
-    gearsCount: Option[Int],
-    // engine
-    engineCapacity: Option[Float],
-    enginePowerW: Option[Short],
-    fuel: Option[String],
-    // body
-    bodyType: Option[String],
-    seatsCount: Option[Int],
-    doorsCount: Option[Short],
-    canInstallHitch: Option[Boolean],
-    hasHitch: Option[Boolean],
-    // stats
-    mileage: Option[Long],
-    minPrice: Option[Long],
-    maxPrice: Option[Long],
-    // features
-    hasAirConditioner: Option[Boolean],
-    hasStartStopSystem: Option[Boolean],
-    hasDriverAssistant: Option[Boolean],
-    hasABS: Option[Boolean])
-
 case class Source1(
     brandName: String,
     modelCode: String,
